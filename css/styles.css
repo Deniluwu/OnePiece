@@ -1,0 +1,161 @@
+* {
+    margin: 10px;
+    padding: 0px;
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.titulo {
+  font-size: 36px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  color: rgb(7, 29, 224);
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+nav {
+    background-color: #be760a;
+    color: rgb(0, 0, 3);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+
+}
+nav ul li a {
+    color: rgb(71, 72, 83);
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: #6b6363;
+}
+
+.caja {
+  max-width: 600px; /* Un ancho más estrecho para centrar mejor */
+  margin: 50px auto; /* Centramos la sección en el medio de la pantalla */
+  padding: 20px;
+  background-color: #2e84a1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.caja2 {
+  max-width: 600px; /* Un ancho más estrecho para centrar mejor */
+  margin: 50px auto; /* Centramos la sección en el medio de la pantalla */
+  padding: 20px;
+  background-color: #2e84a1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.cuadro {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: #2e84a1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto; /* Centra la imagen y añade un margen inferior */
+  border-radius: 8px;
+}
+
+article {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #99b4bc;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: auto auto 1fr; /* Organiza la imagen, el título y el párrafo */
+  gap: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(63, 64, 66);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#contact {
+  background-color: #f9f9f9; /* Color de fondo para la sección */
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc; /* Borde superior para separar */
+}
+
+#contact .contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#contact .contact-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#contact .contact-info i {
+  margin-right: 8px;
+  color: #007bff; /* Color para los íconos de contacto */
+}
+
+
+.footer-icons a {
+  margin: 0 186px;
+  color: #0b0fec; 
+  font-size: 24px; 
+}
+
+.footer-icons a:hover {
+  color: #007bff; 
+}
